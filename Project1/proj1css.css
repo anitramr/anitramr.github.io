@@ -2,7 +2,9 @@
     box-sizing: border-box;
   }
 
-body{
+/* || Homepage Styles */
+
+.back1{
     margin: 0;
     padding: 0;
     background: url(images/homepage.jpg);
@@ -18,7 +20,7 @@ body{
     padding-right: 30px;
 }
 
-.logo{
+.logoh{
     display: flex;
     justify-content: end;
     padding-right: 350px;
@@ -30,4 +32,52 @@ body{
     justify-content: space-between;
     padding: 30px;
     padding-top: 280px;
+}
+
+/* || Jill Page Styles */
+
+.Jillb{
+    background-color: #84A98C;
+}
+
+.J-logo{
+    padding: 20px;
+    padding-left: 1350px;
+}
+
+.Jill-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 280px;
+    color: #354F52;
+}
+
+.Jill-header{
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+    padding-right: 200px;
+    padding-top: 300px;
+    color: #354F52;
+}
+
+.Jill-p{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    padding-right: 200px;
+    color: #354F52;
+}
+
+.Jimg1{
+    max-width: 10px; 
+    max-height: auto;
+    
+}
+
+/* || Amy Page Styles */
+
+.Amyb{
+    background-color: #52796F;
 }
