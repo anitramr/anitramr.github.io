@@ -41,16 +41,14 @@
 }
 
 .J-logo{
+    display: flex;
     padding: 20px;
     padding-left: 1350px;
 }
 
-.Jill-nav{
+.Jimg1{
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    padding-top: 280px;
-    color: #354F52;
+    
 }
 
 .Jill-header{
@@ -58,7 +56,7 @@
     justify-content: right;
     padding: 20px;
     padding-right: 200px;
-    padding-top: 300px;
+    padding-top: 20px;
     color: #354F52;
 }
 
@@ -70,10 +68,12 @@
     color: #354F52;
 }
 
-.Jimg1{
-    max-width: 10px; 
-    max-height: auto;
-    
+.Jill-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-top: 280px;
+    color: #354F52;
 }
 
 /* || Amy Page Styles */
