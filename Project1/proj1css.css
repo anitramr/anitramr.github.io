@@ -87,7 +87,7 @@
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    padding-top: 650px;
+    padding-top: 630px;
     color: #354F52;
     font-family: 'Lato', sans-serif;
 }
@@ -247,4 +247,85 @@
     padding-top: 630px;
     color: #405E60;
     font-family: 'Lato', sans-serif;
+}
+
+/* || Button styles */
+
+.JJ{
+    background-color: #84A98C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.AA{
+    background-color: #84A98C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.SS{
+    background-color: #84A98C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.BB{
+    background-color: #84A98C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+/* || Jill Button styles */
+
+.AA1{
+    background-color: #52796F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.SS1{
+    background-color: #52796F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.BB1{
+    background-color: #52796F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
 }
