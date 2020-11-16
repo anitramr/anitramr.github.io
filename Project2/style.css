@@ -1,0 +1,179 @@
+/* Phone Size 520 & Styling Bones */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+            /* Homepage */
+
+  .nav{
+    position: absolute;
+    padding: 25px;
+    padding-left: 432px;
+    padding-top: 50px;
+  }
+
+  .logo{
+    position: absolute;
+    padding: 25px;
+  }
+
+  .blue1{
+    background-color: #A3D5FF;
+    color: white;
+    height: 450px;
+    text-align: center;
+    padding-top: 190px;
+  }
+
+  .blue1 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+  }
+  
+  .blue1 h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .bread{
+    width: 100%;
+  }
+
+.blueOP1{
+    content: " ";
+    z-index: 10;
+    display: block;
+    position: absolute;
+    height: 25%;
+    top: 370px;
+    left: 0;
+    right: 0;
+    background: rgba(163, 213, 255, 0.5);
+}
+
+.instagram{
+  position: absolute;
+  top: 460px;
+  left: 150px;
+
+}
+
+            /* Location */
+
+.yellow1{
+  background-color: #FCD535;
+  color: white;
+  height: 450px;
+  text-align: center;
+  padding-top: 190px;
+  position: absolute;
+  width: 100%;
+  position: 800px;
+}
+
+.yellow1 h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  font-weight: 400;
+}
+
+.yellowOP1{
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 25%;
+  top: 1590px;
+  left: 0;
+  right: 0;
+  background: rgba(252, 213, 53, 0.5);
+}
+
+.local-tier{
+  width: 100%;
+  position: absolute;
+  top: 1682px;
+}
+
+            /* Food & Drink */
+
+  .pink1{
+    background-color: #EF959C;
+    color: white;
+    height: 450px;
+    text-align: center;
+    padding-top: 4000px;
+  }
+
+  .pink1 h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+  }
+  
+  .pink1 h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .food{
+    width: 100%;
+  }
+
+.pinkOP1{
+    content: " ";
+    z-index: 10;
+    display: block;
+    position: absolute;
+    height: 25%;
+    top: 4000px;
+    left: 0;
+    right: 0;
+    background: rgba(239, 149, 156, 0.5);
+
+
+/* Tablet Size */
+
+@media only screen and (min-width: 768px) {
+
+  .nav{
+    position: absolute;
+    padding-left: 680px;
+  }
+
+  .blue1{
+    height: 550px;
+    padding-top: 230px;
+  }
+
+  .blue1 h1{
+    font-size: 140px;
+    font-weight: 400;
+  }
+  
+  .blue1 h2{
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .blueOP1{
+    height: 25%;
+    top: 510px;
+}
+
+
+}
+
+/* Website Size */
+
+@media only screen and (min-width: 1440px) {
+
+}
