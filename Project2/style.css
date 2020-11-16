@@ -7,17 +7,24 @@
   }
 
             /* Homepage */
+img { width: 100%; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo img {
+  width: 160px;
+  padding: 40px;
+}
+
 
   .nav{
-    position: absolute;
-    padding: 25px;
-    padding-left: 432px;
-    padding-top: 50px;
+    border: 1px solid black;
   }
 
   .logo{
-    position: absolute;
-    padding: 25px;
+    
   }
 
   .blue1{
@@ -25,7 +32,6 @@
     color: white;
     height: 450px;
     text-align: center;
-    padding-top: 190px;
   }
 
   .blue1 h1{
@@ -43,26 +49,26 @@
 
   .bread{
     width: 100%;
+    z-index: -1;
+    position: relative;
   }
 
 .blueOP1{
     content: " ";
-    z-index: 10;
+    z-index: 1;
     display: block;
-    position: absolute;
-    height: 25%;
-    top: 370px;
-    left: 0;
-    right: 0;
+    height: 200px;
     background: rgba(163, 213, 255, 0.5);
+    display: flex;
+    align-items: center;
+    margin-bottom: -80px;
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
 }
+.blueOP1 img {padding: 20px;}
 
-.instagram{
-  position: absolute;
-  top: 460px;
-  left: 150px;
-
-}
 
             /* Location */
 
@@ -85,20 +91,24 @@
 
 .yellowOP1{
   content: " ";
-  z-index: 10;
-  display: block;
-  position: absolute;
-  height: 25%;
-  top: 1590px;
-  left: 0;
-  right: 0;
+  display: block;  
+  height: 180px;
   background: rgba(252, 213, 53, 0.5);
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
 }
 
+.location {
+    height: 450px;
+    margin-top: -6px;
+}
 .local-tier{
+  position: relative;
+  height: 350px;
   width: 100%;
-  position: absolute;
-  top: 1682px;
+  overflow:hidden;
 }
 
             /* Food & Drink */
@@ -108,7 +118,6 @@
     color: white;
     height: 450px;
     text-align: center;
-    padding-top: 2590px;
   }
 
   .pink1 h1{
@@ -132,13 +141,8 @@
     content: " ";
     z-index: 10;
     display: block;
-    position: absolute;
     height: 25%;
-    top: 4000px;
-    left: 0;
-    right: 0;
     background: rgba(239, 149, 156, 0.5);
-
 
 /* Tablet Size */
 
@@ -146,7 +150,6 @@
 
   .nav{
     position: absolute;
-    padding-left: 680px;
   }
 
   .blue1{
