@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+#rightwheel{
+    animation: wheel 1s ease;
+}
+
+#the-rest{
+    animation: rest 1s ease-in-out infinite alternate;
+    transform-origin: bottom;
+}
+
+#hair{
+    animation: hair 1s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#bgsquares{
+    animation: squares 1s ease-in-out infinite alternate;
+}
+
+@keyframes wheel{
+    from{
+        transform: scale(50px);
+    }
+    to{
+        transform: scale(100px);
+    }
+}
+
+@keyframes rest{
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(10deg);
+    }
+}
+
+@keyframes hair{
+    from{
+        transform: translateY(0%);
+    }
+    to{
+        transform: translateY(20%);
+    }
+}
+
+@keyframes squares{
+    from{
+        transform: skewY(0deg);
+    }
+    to{
+        transform: skewY(10deg);
+    }
+}
