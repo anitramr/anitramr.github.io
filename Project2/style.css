@@ -6,7 +6,9 @@
     padding: 0px;
   }
 
-
+body{
+  background: #A3D5FF
+}
 /* START of Mobile Hamburger Menu */
 .nav, .desktop {
   display: block;
@@ -148,7 +150,6 @@ img { width: 100%; }
   .bread{
     width: 100%;
     height: 546px;
-    z-index: -1;
     position: relative;
   }
 
