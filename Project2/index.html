@@ -7,37 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Broder Homepage</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="broder.ico/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="broder.ico/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="broder.ico/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="broder.ico/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="broder.ico/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="broder.ico/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="broder.ico/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="broder.ico/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="broder.ico/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="broder.ico/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="broder.ico/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="broder.ico/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="broder.ico/favicon-16x16.png">
+<link rel="manifest" href="broder.ico/manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 </head>
 <body>
 
+    <header class="nav">
+        <div class="icon">
+            <div class="hamburger"></div>
+        </div>
+        <div class="menu-mobile">
+            <a href="#intro-section">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>      
+    </header>
+    <header class="desktop">
+        <div class="menu-desktop">
+            <a href="#intro-section">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </header>
+    <header class="logo">
+        <img src="images/logo.png" alt="broder logo" />
+    </header>
+
     <div class="homepage">
-        <nav>
-            <div class="logo">
-                <img src="images/logo.png" alt="logo" />
-            </div>
-            <div class="nav">
-                <img src="images/nav.png" alt="nav bar" />
-            </div>
-        
-        
-        </nav>
 
         <div class="blue1">
             <h1>Broder</h1>
@@ -48,10 +63,10 @@
             <img src="images/bread.png" alt="bread" />
             <div class="blueOP1">
                 <div>
-                     <a href=""><img src="images/instagram-logo.png" alt="instagram" /></a>
+                     <a href="https://www.instagram.com/broderpdx/?hl=en" target="_blank"><img src="images/instagram-logo.png" alt="instagram icon" /></a>
                  </div>
                  <div>
-                      <a href=""><img src="images/instagram-logo.png" alt="instagram" /></a>
+                      <a href=""><img src="images/instagram-logo.png" alt="facebook icon" /></a>
                  </div>
                  <div>
                       <a href=""><img src="images/instagram-logo.png" alt="instagram" /></a>
@@ -68,12 +83,18 @@
 
     <div class="location">
         <div class="yellow1">
-            <h1>Location</h1>
+            <h1>Locations</h1>
         </div>
     </div>
 
     <div class="local-tier">
-        <img src="images/locations.png" alt="locations" />
+        <img src="images/locations.png" alt="Locations of Broder" />
+        <ul>
+            <li><a href="">Broder Café</a></li>
+            <li><a href="">Broder Nord</a></li>
+            <li><a href="">Broder Söder</a></li>
+            <li><a href="http://www.brodereast.com/">Broder Øst </a></li>
+        </ul>
         <div class="yellowOP1"> </div>
     </div>
 
@@ -91,7 +112,7 @@
     </div>
 
         <div class="food-tier">
-            <img src="images/food.png" alt="food" />
+            <img src="images/food.png" alt="Images of foods offered" />
             <div class="pinkOP1"> </div>
         </div>
 
@@ -111,8 +132,38 @@
 
         <div class="involved-tier">
             <img src="images/BeetSalad.png" alt="Beet Salad" />
+            <div class="blueOP2"> </div>
         </div>
 
     
+        <div class="info">
+            <div class="yellow2">
+                <h1>Information</h1>
+                <h2>Locations,hours, and store numbers are located under the 
+                    location tab. If you have any questions please contact a store 
+                    or message us on social media. We look forward to seeing you soon!</h2>
+                <ul>
+                     <li><a href="">Our Story</a></li>
+                     <li><a href="">Socials</a></li>
+                     <li><a href="">Partners</a></li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="info-tier">
+            <img src="images/door.png" alt="A carved door to at the Nordia House broder location" />
+            <div class="yellowOP2"> </div>
+        </div>
+
+    <div class="footer">
+        <ul>
+            <li><a href="">Location</a></li>
+            <li><a href="">Food</a></li>
+            <li><a href="">Involvement</a></li>
+            <li><a href="">Info</a></li>
+        </ul>
+    </div>
+
+   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
