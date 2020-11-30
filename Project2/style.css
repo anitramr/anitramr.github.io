@@ -552,6 +552,17 @@ img { width: 100%; }
 }
 
 
+/* Menu subpage */
+.menus{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 75px;
+  font-weight: 400;
+  writing-mode: sideways-lr;
+  text-orientation: sideways-right;
+  color: white;
+  margin-left: -100px;
+}
+
 
 
 /* Tablet Size */
