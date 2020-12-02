@@ -208,6 +208,7 @@ img { width: 100%; }
 .location {
     height: 450px;
     margin-top: -6px;
+    width: 100%;
 }
 
 .local-tier ul{
@@ -570,6 +571,7 @@ img { width: 100%; }
 
 .menu-images{
   padding-left: 120px;
+  width: 100%;
 }
 
 .food-menu{
@@ -578,6 +580,10 @@ img { width: 100%; }
 
 /* Gallery subpage */
 
+.gallery-view{
+  width: 100%;
+  
+}
 
 
 
