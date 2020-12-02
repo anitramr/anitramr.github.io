@@ -560,8 +560,25 @@ img { width: 100%; }
   writing-mode: sideways-lr;
   text-orientation: sideways-right;
   color: white;
-  margin-left: -100px;
+  margin-left: -84px;
+  position: absolute;
 }
+
+.menu-together{
+  display: flex;
+}
+
+.menu-images{
+  padding-left: 120px;
+}
+
+.food-menu{
+  padding-bottom: 15px;
+}
+
+/* Gallery subpage */
+
+
 
 
 
