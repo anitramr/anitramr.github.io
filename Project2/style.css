@@ -582,7 +582,7 @@ img { width: 100%; }
 
 .gallery-view{
   width: 100%;
-  
+  display: block;
 }
 
 
