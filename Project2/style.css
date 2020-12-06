@@ -561,8 +561,23 @@ img { width: 100%; }
   writing-mode: sideways-lr;
   text-orientation: sideways-right;
   color: white;
-  margin-left: -84px;
+  margin-left: -90px;
   position: absolute;
+  top: 670px;
+}
+
+.menus h1{
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+
 }
 
 .menu-together{
@@ -576,6 +591,7 @@ img { width: 100%; }
 
 .food-menu{
   padding-bottom: 15px;
+  width: 100%;
 }
 
 /* Gallery subpage */
@@ -585,6 +601,166 @@ img { width: 100%; }
   font-size: 0;
   overflow: hidden;
 }
+
+
+/* Giftcards subpage */
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  writing-mode: sideways-lr;
+  text-orientation: sideways-right;
+  color: white;
+  margin-left: -36px;
+  position: absolute;
+  top: 700px;
+}
+
+.title h1{
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.gift-content{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-left: 95px;
+
+}
+
+.gift-content h2{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.p1{
+  padding-bottom: 6px;
+}
+
+.p2{
+  padding-bottom: 5px;
+}
+
+.gift-form{
+    margin: 70px;
+    padding-top: 480px;
+    background-size: cover;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    width: 450px;
+    
+}
+
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+}
+
+.contact-form h2{
+    margin-top: 0;
+    font-weight: 500;
+    color: #F1C204;
+}
+
+.textb{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+
+.textb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.textb input, .textb textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+.btn{
+    display: inline-block;
+    background:  #E75F6B;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
+
+/* Events subpage */
+.events{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 75px;
+  font-weight: 400;
+  writing-mode: sideways-lr;
+  text-orientation: sideways-right;
+  color: white;
+  margin-left: -90px;
+  position: absolute;
+  top: 670px;
+}
+
+.events h1{
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  transform-origin: 0 0;
+
+}
+
+.events-together{
+  display: flex;
+}
+
+.nord{
+  padding-left: 120px;
+  width: 100%;
+}
+
+.soder{
+  padding-top: 20px;
+  width: 100%;
+  padding-left: 120px;
+}
+
+/* Catering Subpage */
+
 
 
 
