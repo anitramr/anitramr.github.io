@@ -26,6 +26,9 @@ function desktopMenu() {
     })
 }
 
+
+
+
 function init(){
     desktopMenu();
     closeMobileMenu()
@@ -33,6 +36,15 @@ function init(){
 }
 
 $(init())  
+
+
+
+
+
+
+
+
+
 
 var slideIndex = 1;
 showSlides(slideIndex);

@@ -189,7 +189,6 @@ img { width: 100%; }
   font-size: 90px;
   font-weight: 400;
 }
-
 /*
 .yellowOP1{
   content: " ";
@@ -1009,6 +1008,120 @@ img { width: 100%; }
   -o-transform-origin: 0 0;
   transform-origin: 0 0;
 }
+
+.contact-image{
+  width: 100%;
+  padding-left: 110px;
+  padding-top: 32px;
+  padding-bottom: 30px;
+}
+
+
+.contact-message{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-left: 110px;
+  padding-right: 12px;
+  padding-bottom: 45px;
+}
+
+.contact-message h2{
+  padding-bottom: 10px;
+}
+
+.cmp1{
+  padding-bottom: 8px;
+}
+
+
+/* Location Subpage */
+.locals{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+    writing-mode: sideways-lr;
+    text-orientation: sideways-right;
+    color: white;
+    margin-left: -48px;
+    position: absolute;
+    top: 700px;
+  }
+  
+  .locals h1{
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+
+.locals-brodercafe{
+  width: 95%;
+  padding-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: right;
+}
+
+.locals-brodercafe h2{
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+
+.locals-brodernord{
+  width: 95%;
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-left: 50px;
+}
+
+.locals-brodernord h2{
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+
+.locals-brodersord{
+  width: 95%;
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: right;
+}
+
+.lbh23{
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+
+.locals-broderost{
+  width: 95%;
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-left: 50px;
+  padding-bottom: 50px;
+}
+
+.locals-broderost h2{
+  padding-top: 18px;
+  padding-bottom: 8px;
+}
+
+.animation{
+  width: 100%;
+  transform:scale(0.6);
+  margin: -87px;
+}
+
+
+
+
 
 
 
