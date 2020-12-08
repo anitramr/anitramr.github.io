@@ -41,17 +41,6 @@ $(init())
 
 
 
-var section = $('li');
-
-function toggleAccordion() {
-  section.removeClass('active');
-  $(this).addClass('active');
-}
-
-section.on('click', toggleAccordion);
-
-
-
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -82,6 +71,16 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 } 
 
+
+
+var section = $('li');
+
+function toggleAccordion() {
+  section.removeClass('active');
+  $(this).addClass('active');
+}
+
+section.on('click', toggleAccordion);
 
 
 
