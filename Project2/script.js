@@ -39,6 +39,8 @@ $(init())
 
 
 
+
+
 var section = $('li');
 
 function toggleAccordion() {
@@ -47,8 +49,6 @@ function toggleAccordion() {
 }
 
 section.on('click', toggleAccordion);
-
-
 
 
 
