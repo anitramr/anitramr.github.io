@@ -41,7 +41,14 @@ $(init())
 
 
 
+var section = $('li');
 
+function toggleAccordion() {
+  section.removeClass('active');
+  $(this).addClass('active');
+}
+
+section.on('click', toggleAccordion);
 
 
 
@@ -74,4 +81,8 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 } 
+
+
+
+
 
