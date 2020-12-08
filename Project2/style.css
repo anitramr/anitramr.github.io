@@ -1441,7 +1441,7 @@ img { width: 100%; }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1500px;
+  max-width: 1900px;
 }
 
 /* Hide the images by default */
@@ -1907,5 +1907,4 @@ img { width: 100%; }
 
 .Takeaway{
   padding-top: 10px;
-  font-size: 30px;
-}
+  font-size: 30px;}
