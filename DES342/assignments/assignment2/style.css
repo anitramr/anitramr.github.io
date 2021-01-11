@@ -39,7 +39,7 @@ body {
 }
 
 .one {
-  background: #efdefe;
+  background-image: url(images/darknight.jpg);
 }
 .two {
   background: #a3f3d3;
@@ -52,4 +52,30 @@ body {
 }
 .center {
   text-align: center;
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size: 80px;
+  color: white;
+}
+.centertwo{
+  text-align: center;
+  color: white;
+  font-family: 'Fraunces', serif;
+  font-weight: 300;
+  font-size: 24px;
+  font-style: italic;
+}
+.centerhenter{
+  text-align: center;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+}
+.centercenter{
+  text-align: center;
+  color: white;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
 }
