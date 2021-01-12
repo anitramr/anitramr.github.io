@@ -4,6 +4,7 @@
 body {
   margin: 0;
 }
+
 .slide {
   width: 100vw;
   height: 100vh;
@@ -42,22 +43,27 @@ body {
   background-image: url(images/darknight.jpg);
 }
 .two {
-  background: #a3f3d3;
+  background: #0C0402;
+  z-index: -10;
 }
 .three {
   background: #0bbaa0;
+  z-index: -10;
 }
 .four {
   background: #00dfdf;
+  z-index: -10;
 }
 .center {
+  position: relative;
+  z-index: 10;
   text-align: center;
   font-family: 'Fraunces', serif;
   font-weight: 400;
   font-size: 80px;
   color: white;
 }
-.centertwo{
+.centersub{
   text-align: center;
   color: white;
   font-family: 'Fraunces', serif;
@@ -66,16 +72,85 @@ body {
   font-style: italic;
 }
 .centerhenter{
-  text-align: center;
+  text-align: left;
+  padding-left: 80px;
+  padding-bottom: 180px;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  color: white;
+}
+#rage{
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.centercenter{
+  text-align: left;
+  padding-left: 560px;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+}
+.flame{
+  height: 100%;
+  width: 15%;
+  position: absolute;
+  z-index: -1;
+}
+.centerhentertwo{
+  text-align: left;
+  padding-left: 0px;
+  padding-bottom: 40px;
   font-family: 'lato', sans-serif;
   font-weight: 400;
   font-size: 40px;
   color: white;
 }
-.centercenter{
-  text-align: center;
+.centercentertwo{
+  text-align: left;
+  padding-left: 350px;
+  padding-top: 80px;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
   color: white;
+}
+#grieved{
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.candle{
+  height: 70%;
+  width: 20%;
+  position: absolute;
+  z-index: -1;
+  opacity: 50%;
+  padding-left: 300px;
+}
+.waves{
+  height: 100%;
+  width: 30%;
+  position: absolute;
+  z-index: -2;
+}
+.centerhenterthree{
+  text-align: left;
+  padding-left: 0px;
+  padding-bottom: 10px;
   font-family: 'lato', sans-serif;
   font-weight: 400;
   font-size: 40px;
+  color: white;
+}
+.centercenterthree{
+  text-align: left;
+  padding-left: 350px;
+  padding-top: 30px;
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
 }
