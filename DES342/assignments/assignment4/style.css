@@ -70,6 +70,11 @@ main {
   padding-left: 70px;
 }
 
+.Arm{
+  height: 100%;
+  width: 30%;
+}
+
 .three {
   background: #832C2B;
   padding-left: 140px;
