@@ -8,16 +8,22 @@ body {
   font-size: 20px;
 }
 header {
-  background-image: url("../images/banners/jellyfish-web-background.jpg");
+  background-image: url("../images/banners/DankGreenJBanner.jpg");
   background-size: cover;
-  height: 200px; 
+  height: 710px; 
 }
+
+.name{
+  font-size: 48px;
+  color: #AD5D4E;
+  font-weight: 500;
+}
+
 h1,
 h2,
 h3 {
   font-size: 36px;
-  font-family: "Nunito+Sans 700", sans-serif;
-  color: cadetblue;
+  color: #006C52;
 }
 main,
 header h1,
@@ -35,9 +41,84 @@ nav a:hover {
   color: #333;
 }
 nav {
-  background-color: #ccc;
+  align-items: right;
   padding: 12px;
 }
+
+.menu-toggle {
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  top: 730px;
+  right: 25px;
+  cursor: pointer;
+}
+.menu-toggle.on .one {
+  -moz-transform: rotate(45deg) translate(7px, 7px);
+  -ms-transform: rotate(45deg) translate(7px, 7px);
+  -webkit-transform: rotate(45deg) translate(7px, 7px);
+  transform: rotate(45deg) translate(7px, 7px);
+}
+.menu-toggle.on .two {
+  opacity: 0;
+}
+.menu-toggle.on .three {
+  -moz-transform: rotate(-45deg) translate(8px, -10px);
+  -ms-transform: rotate(-45deg) translate(8px, -10px);
+  -webkit-transform: rotate(-45deg) translate(8px, -10px);
+  transform: rotate(-45deg) translate(8px, -10px);
+}
+
+.one,
+.two,
+.three {
+  width: 100%;
+  height: 5px;
+  background: #AD5D4E;
+  margin: 6px auto;
+  backface-visibility: hidden;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  margin: 4em auto;
+  text-align: center;
+}
+nav ul.hidden {
+  display: none;
+}
+nav ul a {
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  color: white;
+  font-size: 3em;
+  line-height: 1.5;
+  width: 100%;
+  display: block;
+}
+nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-section.on {
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+}
+
 
 .inspiro-img {
   width:800px;
@@ -54,4 +135,22 @@ nav {
 
 .three-col .description{
   flex-grow: 2;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+ .header{
+  height: 310px; 
+ }
+  .three-col{
+    flex-direction: column;
+  }
+
+  .inspiro-img{
+    width: 80%;
+  }
 }

@@ -12,11 +12,27 @@
   </head>
   <body>
     <header id="liquid-button">
-      <h1>anitramr</h1>
+      <h1 class="name">anitramr</h1>
       <audio id="liquid" class="audio">
         <source src="audio/liquid-sound.mp3" type="audio/mpeg"></source>
       </audio>
     </header>
+    <div class="menu-section">
+      <div class="menu-toggle">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+      </div>
+      <nav>
+        <ul role="navigation" class="hidden">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="design-journal.html">Design Journal</a></li>
+          <li><a href="DES341.html">Des 341</a></li>
+          <li><a href="DES342.html">Des 342</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!--
     <nav>
       <div>
         <a href="index.html">Home</a><a href="design-journal.html">Design Journal</a><a href="Homework/hw1/index.html">Homework 1</a>
@@ -25,11 +41,12 @@
         <a href="DES342/assignments/assignment2/">DES342-Assignment 2 </a>
       </div>
     </nav>
+    -->
     <main>
       <section class="three-col">
         <article>
           <h2>Homework</h2>
-          <ul>
+          <ul class="homes">
             <li><a href="Homework/hw1/index.html"></a>Homework 1 - Narrative</li>
             <li><a href="Homework/hw4/hw4.html"></a>Homework 4</li>
             <li><a href=""></a></li>
@@ -37,7 +54,7 @@
         </article>
         <article>
           <h2>Projects</h2>
-          <ul>
+          <ul class="projs">
             <li><a href="Projects/dating-plants"></a>Dating Plants</li>
             <li><a href="Project2/index.html"></a>Border Website Refresh</li>
             <li><a href=""></a>And Death Shall Have No Domain</li>
@@ -49,9 +66,12 @@
         </article>
       </section>
       <section>
-      <h2>Inspiration</h2>
+      <h2 class="inspo">Inspiration</h2>
       <a href="https://www.bessermachen.com/" target="_blank"><img src="images/inspo website pic.png" alt="bessermachen website screenshot" class="inspiro-img"/></a>     
       <p>This is the homepage - the only homepage.</p>
+      </section>
+      <section>
+        <h2>WIPS</h2>
       </section>
     </main>
     <footer></footer>
