@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+    position: relative;
+}
+
+p {
+  color: #fff;
+}
+.protagonist {
+  padding: 120px;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  left: 300px;
+  border-radius: 50%;
+  filter: hue-rotate(0deg);
+  transition: transform 2s;
+}
+.flip {
+  transform: scaleX(-1);
+}
+
+main {
+  z-index: -1;
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 500vw;
+}
+.wrapper section {
+  width: 100vw;
+}
+.vh-center {
+  margin: 120px auto;
+  width: 80%;
+  height: 80%;
+}
+.start {
+  height: 100vh;
+  width: 500vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.one {
+  background: #832C2B;
+}
+
+.message{
+  height: 100%;
+  width: 50%;
+}
+
+.two {
+  background: #E8B6B7;
+  padding-left: 70px;
+}
+
+.three {
+  background: #832C2B;
+  padding-left: 140px;
+}
+
+.RedSun{
+  height: 100%;
+  width: 40%;
+}
+
+.four {
+  background-color: #E8B6B7;
+  padding-left: 210px;
+}
+
+.Man{
+  height: 100%;
+  width: 40%;
+}
+
+.sunset{
+  animation-name: sunset-anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes sunset-anim{
+  0% {
+    background-color: #FCE6DB;
+  }
+  25% {
+    background-color: #9E8DB9;
+  }
+  50% {
+    background-color: #B57E95;
+  }
+  75% {
+    background-color: #573254;
+  }
+  100% {
+    background-color: #010801;
+  }
+}
+
+.five {
+  background: #832C2B;
+  padding-left: 280px;
+}
+
+.Beach{
+  height: 100%;
+  width: 40%;
+}
+
+.center {
+  text-align: center;
+}

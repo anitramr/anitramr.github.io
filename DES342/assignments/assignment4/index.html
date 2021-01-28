@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Animation trigger</title>
+  </head>
+  <body id="pane">
+    <!--
+    <section class="start">
+      <img class="protagonist" src="http://placekitten.com/400/400" />
+    </section>
+    -->
+    <main>
+      <div class="wrapper">
+        <section class="slide one">
+          <article class="vh-center">
+            <!--
+            <p class="center">First page text!</p>
+            -->
+            <img class="message" src="images/message.jpg" alt="a brief covid message to stay home">
+          </article>
+        </section>
+        <section class="slide two">
+          <article class="vh-center">
+            <!--
+            <p class="center">Second page text!</p>
+            -->
+            <video class="Arm" width="620" height="740" autoplay>
+              <source src="images/Arm.mp4" type=video/mp4>
+            </video>
+          </article>
+        </section>
+        <section class="slide three">
+          <article class="vh-center">
+            <!--
+            <p class="center">Third Page Text!</p>
+            -->
+            <img class="RedSun" src="images/RedSun.jpg" alt="a red sun against a purple sky">
+          </article>
+        </section>
+        <section class="slide four">
+          <article class="vh-center">
+            <!--
+            <p class="center">Fourth page text!</p>
+            -->
+            <img class="Man" src="images/Man.jpg" alt="a man laying on the floor of a gaming arcade">
+          </article>
+        </section>
+        <section class="slide five">
+          <article class="vh-center">
+            <!--
+            <p class="center">Fifth page text!</p>
+            -->
+            <img class="Beach" src="images/Beach.jpg" alt="a beach during a pink and purple sunset">
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+
+    <script>
+      var $two = $(".two")
+
+      $two.waypoint(
+        function (direction) {
+          $(".protagonist").addClass("flip")
+        },
+        { offset: "0%", horizontal: true }
+      )
+
+      $(".three").waypoint(
+        function () {
+          $(".protagonist").css("filter", "hue-rotate(90deg)")
+        },
+        { offset: "50%", horizontal: true }
+      )
+
+      $(".two").waypoint(
+        function (direction) {
+          $(".message").css("translate", "2200px")
+        },
+        { offset: "0%", horizontal: true }
+      )
+
+      $(".two").waypoint(
+        function (direction) {
+          $(".Arm").css("transform", "rotate(90deg)")
+        },
+        { offset: "0%", horizontal: true }
+      )
+
+      $(".three").waypoint(
+        function (direction) {
+          $(".RedSun").css("transform", "scale(3,3)")
+        },
+        { offset: "0%", horizontal: true }
+      )
+
+      $(".three").waypoint(
+        function (direction) {
+          $(".RedSun").css("translate", "260px")
+        },
+        { offset: "0%", horizontal: true }
+      )
+
+      $(".four").waypoint(
+        function () {
+          $(".four").addClass("sunset")
+        },
+        { offset: "50%", horizontal: true }
+      )
+
+      $(".five").waypoint(
+        function (direction) {
+          $(".Beach").css("border-radius", "50%")
+        },
+        { offset: "0%", horizontal: true }
+      )
+
+      $(".five").waypoint(
+        function (direction) {
+          $(".Beach").css("transition-timing-function", "ease-in")
+        },
+        { offset: "0%", horizontal: true }
+      )
+
+
+    </script>
+  </body>
+</html>
