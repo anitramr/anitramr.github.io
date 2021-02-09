@@ -1,106 +1,116 @@
 * {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-  }
-
-body{
-    background-color: black;
-    font-family: Homemade Apple;
-    color: rgb(255, 247, 234);
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
-.header{
-    display: flex;
-    flex-direction: row;
-    font-size: 22px;
-    justify-content: space-between;
-    list-style-type: none;
-    margin-left: 36px;
-    margin-right: 36px;
-    margin-top: 30px;
+body {
+  background-color: black;
+  font-family: Homemade Apple;
+  color: rgb(255, 247, 234);
 }
 
-.light-text{
-    text-align: center;
-    font-size: 50px;
-    color: rgb(255, 247, 234);
-    position: relative;
-    padding-top: 160px;
+.header {
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: 36px;
+  margin-right: 36px;
+  margin-top: 30px;
+}
+
+.light-text {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 247, 234);
+  position: relative;
+  padding-top: 160px;
 }
 
 .light {
-    height: 100%;
-    width: 75%;
-    margin-left: 300px;
-    position: absolute;
+  height: 100%;
+  width: 75%;
+  margin-left: 300px;
+  position: absolute;
 }
 
-.author{
-    color: rgb(255, 247, 234);
-    font-size: 18px;
-    text-align: right;
-    padding-right: 36px;
-    padding-top: 230px;
-    position: relative;
+.author {
+  color: rgb(255, 247, 234);
+  font-size: 18px;
+  text-align: right;
+  padding-right: 36px;
+  padding-top: 230px;
+  position: relative;
 }
 
-.screen-two{
-    color: rgb(255, 247, 234);
-    font-size: 20px;
-    margin-left: 36px;
-    padding-top: 400px;
+.screen-two {
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 36px;
+  padding-top: 400px;
+}
+.next {
+  text-decoration: underline;
+  cursor: help;
+}
+.moon {
+  height: 50%;
+  width: 20%;
+  margin-left: 1100px;
+  padding-top: 130px;
+  position: absolute;
+}
+.moon-box {
+  opacity: 0;
+  transition: opacity 2s;
+}
+.draw {
+  opacity: 1;
 }
 
-.moon{
-    height: 50%;
-    width: 20%;
-    margin-left: 1100px;
-    padding-top: 130px;
-    position: absolute;
+.screen-two-twotext {
+  position: relative;
+  padding-top: 250px;
+  margin-left: 800px;
+  z-index: 20;
 }
 
-.screen-two-twotext{
-    position: relative;
-    padding-top: 250px;
-    margin-left: 800px;
-    z-index: 20;
+.window {
+  height: 100%;
+  width: 80%;
+  margin-left: -200px;
+  position: absolute;
+  z-index: 10;
 }
 
-.window{
-    height: 100%;
-    width: 80%;
-    margin-left: -200px;
-    position: absolute;
-    z-index: 10;
+.screen-three-onetext {
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 36px;
+  padding-top: 1100px;
 }
 
-.screen-three-onetext{
-    color: rgb(255, 247, 234);
-    font-size: 20px;
-    margin-left: 36px;
-    padding-top: 1100px;
+.screen-three-twotext {
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-right: 36px;
+  padding-top: 580px;
+  margin-left: 878px;
 }
 
-.screen-three-twotext{
-    color: rgb(255, 247, 234);
-    font-size: 20px;
-    margin-right: 36px;
-    padding-top: 580px;
-    margin-left: 878px;
+.screen-four-onetext {
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 36px;
+  padding-top: 600px;
 }
 
-.screen-four-onetext{
-    color: rgb(255, 247, 234);
-    font-size: 20px;
-    margin-left: 36px;
-    padding-top: 600px;
-}
-
-.screen-four-twotext{
-    color: rgb(255, 247, 234);
-    font-size: 20px;
-    margin-right: 36px;
-    margin-left: 1082px;
-    padding-top: 600px;
+.screen-four-twotext {
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-right: 36px;
+  margin-left: 1082px;
+  padding-top: 600px;
 }
