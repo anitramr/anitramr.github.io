@@ -30,7 +30,6 @@ body {
 }
 
 .light {
-  height: 100%;
   width: 75%;
   margin-left: 300px;
   position: absolute;
@@ -57,7 +56,6 @@ body {
 }
 .moon {
   height: 50%;
-  width: 20%;
   margin-left: 1100px;
   padding-top: 130px;
   position: absolute;
@@ -78,8 +76,7 @@ body {
 }
 
 .window {
-  height: 100%;
-  width: 80%;
+  width: 70%;
   margin-left: -200px;
   position: absolute;
   z-index: 10;
@@ -113,4 +110,159 @@ body {
   margin-right: 36px;
   margin-left: 1082px;
   padding-top: 600px;
+}
+
+.screen-five-onetext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 36px;
+  padding-top: 600px;
+}
+
+.screen-six-onetext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-right: 36px;
+  margin-left: 945px;
+  padding-top: 600px;
+}
+
+.sideskull{
+  width: 100%;
+  padding-left: 375px;
+  padding-top: 30px;
+}
+
+.screen-six-twotext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 36px;
+  padding-top: 80px;
+}
+
+.chapel{
+  width: 50%;
+  margin-left: 740px;
+  position: absolute;
+}
+
+.screen-seven-onetext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 36px;
+  padding-top: 850px;
+  position: relative;
+}
+
+.screen-eight-onetext {
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 36px;
+  padding-top: 180px;
+}
+
+.screen-eight-twotext {
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-right: 36px;
+  margin-left: 1082px;
+  padding-top: 600px;
+}
+
+.screen-nine-onetext {
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 36px;
+  padding-top: 180px;
+}
+
+.seagulls{
+  width: 50%;
+  margin-left: 180px;
+}
+
+.screen-ten-onetext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-right: 36px;
+  margin-left: 1010px;
+  padding-top: 200px;
+}
+
+.screen-eleven-onetext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-right: 36px;
+  margin-left: 550px;
+  padding-top: 200px;
+}
+
+.screen-twelve-onetext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 36px;
+  padding-top: 180px;
+}
+
+.askull{
+  width: 50%;
+  margin-left: 680px;
+}
+
+.screen-thirteen-onetext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-right: 36px;
+  margin-left: 990px;
+  padding-top: 200px;
+}
+
+.screen-fourteen-onetext {
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 36px;
+  padding-top: 180px;
+}
+
+.screen-fourteen-twotext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 286px;
+  padding-top: 180px;
+}
+
+.screen-fourteen-threetext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 571px;
+  padding-top: 180px;
+}
+
+.screen-fourteen-fourtext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 826px;
+  padding-top: 180px;
+}
+
+.screen-fourteen-fivetext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-left: 1101px;
+  padding-top: 180px;
+}
+
+.screen-fourteen-sixtext{
+  color: rgb(255, 247, 234);
+  font-size: 20px;
+  margin-right: 36px;
+  margin-left: 1350px;
+  padding-top: 200px;
+}
+
+.screen-fifteen-onetext{
+  color: rgb(255, 247, 234);
+  font-size: 120px;
+  margin-left: 460px;
+  padding-top: 400px;
 }
