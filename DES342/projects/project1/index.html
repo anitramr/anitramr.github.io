@@ -43,11 +43,13 @@
         <img class="moon" src="images/moon.png" alt="image of a moon" />
         <p class="screen-two-twotext">
           Dead man naked they shall be one<br />
-          With the man in the wind and the west moon;
+          With the man in the wind and the west  <span class="next">moon</span>;
         </p>
-
-        <img class="window" src="images/window.jpg" alt="a black white photo of an open old fashion window with the blinds partially down" />
       </div>
+    </div>
+
+    <div class="window-window">
+      <img class="window" src="images/window.jpg" alt="a black white photo of an open old fashion window with the blinds partially down" />
     </div>
 
     <div class="screen-three">
@@ -104,9 +106,10 @@
 
     <div class="screen-ten">
       <p class="screen-ten-onetext">Or waves break loud on the seashores;</p>
-      <video width="1480" height="860" controls>
-        <source class="sea" src="images/sea-vid.mp4" type=video/mp4 alt="a short video of waves crashing against the shore"> <!-- video -->
-      </video>
+      <video id="sea" src="images/sea-vid.mp4" width="1480" height="860" ></video>
+     <!-- <video width="1480" height="860" controls>
+        <source id="sea" src="images/sea-vid.mp4" type=video/mp4 alt="a short video of waves crashing against the shore"> 
+      </video> -->
     </div>
 
     <div class="screen-eleven">
@@ -167,16 +170,50 @@
 
 
     <script src="http://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
     <script>
+
+
+
       $(".screen-two .next").click(function () {
         $(".screen-two .next").css("text-decoration", "line-through")
         $(".moon-box").addClass("draw")
+      })
+
+      $(".moon-box .next").click(function () {
+        $(".moon-box .next").css("text-decoration", "line-through")
+        $(".window-window").addClass("draw")
       })
 
       $(".screen-three-onetext .next").click(function () {
         $(".screen-three-onetext .next").css("text-decoration", "line-through")
         $(".screen-three-twotext").addClass("draw")
       })
+
+
+
+
+      var seavid = document.getElementById('sea');
+
+      // init controller
+	var controller = new ScrollMagic.Controller();
+
+// build scene
+var scene = new ScrollMagic.Scene({triggerElement: "#sea", duration: 1000})
+        .addTo(controller)
+        //.addIndicators() // add indicators (requires plugin)
+
+        .on("enter", function () {
+            seavid.play();
+        })
+        .on("leave", function () {
+            seavid.pause();
+        })
+
+
+
     </script>
     <script type="text/javascript" src="script.js"></script>
   </body>

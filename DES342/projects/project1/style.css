@@ -68,6 +68,11 @@ body {
   opacity: 1;
 }
 
+.window-window {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
 .screen-two-twotext {
   position: relative;
   padding-top: 250px;
