@@ -50,7 +50,8 @@ body {
   margin-left: 36px;
   padding-top: 400px;
 }
-.next {
+.next,
+.next-moon {
   text-decoration: underline;
   cursor: help;
 }
@@ -68,11 +69,6 @@ body {
   opacity: 1;
 }
 
-.window-window {
-  opacity: 0;
-  transition: opacity 2s;
-}
-
 .screen-two-twotext {
   position: relative;
   padding-top: 250px;
@@ -81,12 +77,15 @@ body {
 }
 
 .window {
-  width: 70%;
   margin-left: -200px;
-  position: absolute;
   z-index: 10;
+  width: 70%;
+  opacity: 0;
+  transition: opacity 2s;
 }
-
+.draw-window {
+  opacity: 1;
+}
 .screen-three-onetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
@@ -117,14 +116,14 @@ body {
   padding-top: 600px;
 }
 
-.screen-five-onetext{
+.screen-five-onetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-left: 36px;
   padding-top: 600px;
 }
 
-.screen-six-onetext{
+.screen-six-onetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-right: 36px;
@@ -132,26 +131,26 @@ body {
   padding-top: 600px;
 }
 
-.sideskull{
+.sideskull {
   width: 100%;
   padding-left: 375px;
   padding-top: 30px;
 }
 
-.screen-six-twotext{
+.screen-six-twotext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-left: 36px;
   padding-top: 80px;
 }
 
-.chapel{
+.chapel {
   width: 50%;
   margin-left: 740px;
   position: absolute;
 }
 
-.screen-seven-onetext{
+.screen-seven-onetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-left: 36px;
@@ -181,12 +180,12 @@ body {
   padding-top: 180px;
 }
 
-.seagulls{
+.seagulls {
   width: 50%;
   margin-left: 180px;
 }
 
-.screen-ten-onetext{
+.screen-ten-onetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-right: 36px;
@@ -194,7 +193,7 @@ body {
   padding-top: 200px;
 }
 
-.screen-eleven-onetext{
+.screen-eleven-onetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-right: 36px;
@@ -202,19 +201,19 @@ body {
   padding-top: 200px;
 }
 
-.screen-twelve-onetext{
+.screen-twelve-onetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-left: 36px;
   padding-top: 180px;
 }
 
-.askull{
+.askull {
   width: 50%;
   margin-left: 680px;
 }
 
-.screen-thirteen-onetext{
+.screen-thirteen-onetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-right: 36px;
@@ -229,35 +228,35 @@ body {
   padding-top: 180px;
 }
 
-.screen-fourteen-twotext{
+.screen-fourteen-twotext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-left: 286px;
   padding-top: 180px;
 }
 
-.screen-fourteen-threetext{
+.screen-fourteen-threetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-left: 571px;
   padding-top: 180px;
 }
 
-.screen-fourteen-fourtext{
+.screen-fourteen-fourtext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-left: 826px;
   padding-top: 180px;
 }
 
-.screen-fourteen-fivetext{
+.screen-fourteen-fivetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-left: 1101px;
   padding-top: 180px;
 }
 
-.screen-fourteen-sixtext{
+.screen-fourteen-sixtext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-right: 36px;
@@ -265,7 +264,7 @@ body {
   padding-top: 200px;
 }
 
-.screen-fifteen-onetext{
+.screen-fifteen-onetext {
   color: rgb(255, 247, 234);
   font-size: 120px;
   margin-left: 460px;
