@@ -122,10 +122,10 @@ body {
 }
 
 
-
 canvas {
   position: absolute;
   background: black;
+  width: 100%;
 }
 
 .sinking{
@@ -136,15 +136,14 @@ canvas {
 }
 
 
-
 .screen-four-onetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-left: 36px;
-  padding-top: 600px;
+  padding-top: 100px;
 }
 
-.screen-four-onetext{
+.screen-four-onegroup{
   opacity: 0;
   transition: opacity 2s;
 }
@@ -191,14 +190,6 @@ canvas {
   cursor: help;
 }
 
-.draw-five {
-  opacity: 1;
-}
-
-.screen-six-onetext {
-  text-decoration: underline;
-  cursor: help;
-}
 
 .screen-five-waves{
   width: 90%;
@@ -214,10 +205,22 @@ canvas {
   padding-top: 100px;
 }
 
+.screen-six-onetext {
+  opacity: 0;
+  transition: opacity 2s;
+}
+.draw-five {
+  opacity: 1;
+}
+
+.next-six {
+  text-decoration: underline;
+  cursor: help;
+}
+
 .sideskull {
   width: 100%;
   padding-left: 375px;
-  padding-top: 30px;
 }
 
 .screen-six-twotext {
@@ -225,6 +228,20 @@ canvas {
   font-size: 20px;
   margin-left: 36px;
   padding-top: 80px;
+}
+
+.screen-six-twogroup{
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.draw-six {
+  opacity: 1;
+}
+
+.next-seven {
+  text-decoration: underline;
+  cursor: help;
 }
 
 .chapel {
@@ -241,12 +258,48 @@ canvas {
   position: relative;
 }
 
+.screen-seven-onetext{
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.draw-seven {
+  opacity: 1;
+}
+
 .screen-eight-onetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-left: 36px;
   padding-top: 180px;
 }
+
+
+
+
+#dragElement {
+  width: 80px;
+  height: 80px;
+  background: gray;
+  cursor: move;
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 50%;
+  user-select: none;
+  transition: all 1ms ease;
+  transform: translateX(-40px) translateY(-40px);
+  position: absolute;
+  left: 36px;
+  top: 10000px;
+}
+
+
+
+
+
+
+
 
 .screen-eight-twotext {
   color: rgb(255, 247, 234);

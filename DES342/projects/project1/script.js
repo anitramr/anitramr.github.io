@@ -117,3 +117,51 @@ function Particle() {
 }
 
 Diffusion.init();
+
+
+
+var body = document.body;
+var dragElement = document.getElementById("dragElement");
+var dragElementStyle = dragElement.style;
+var dragElementHeight = dragElement.offsetHeight;
+var dragElementWidth = dragElement.offsetWidth;
+
+onload = adding;
+
+function adding() {
+    dragElement.addEventListener("mousedown", hold, false);
+    body.addEventListener("mouseup", release, false);
+}
+
+function hold() {
+    dragElement.addEventListener("mousemove", move, true);
+    body.addEventListener("mousemove", move, true);
+}
+
+function release() {
+    dragElement.removeEventListener("mousemove", move, true);
+    body.removeEventListener("mousemove", move, true);
+}
+
+function move(event) {
+    var epY = event.clientY;
+    var epX = event.clientX;
+
+    dragElementStyle.top = epY + "px";
+    dragElementStyle.left = epX + "px";
+}
+
+
+
+
+var liquid = $("#seabird")[0];
+$("#seabird-button").mouseenter(function() {
+  liquid.currentTime = 0;
+  liquid.play();
+});
+
+$(".menu-toggle").on('click', function() {
+  $(this).toggleClass("on");
+  $('.menu-section').toggleClass("on");
+  $("nav ul").toggleClass('hidden');
+});

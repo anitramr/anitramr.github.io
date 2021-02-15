@@ -60,12 +60,13 @@
         Though they sink through the sea they shall rise again;<br />
         Though lovers be lost <span class="next-threefour">love shall not;</span>
       </p>
-      <img class="sinking" src="images/underwater.jpg" alt="an underwater black and white photo of people bobbing in the rough water">
     </div>
 
     <div class="screen-four">
-      <p class="screen-four-onetext">And death shall have no <span class="next-four">dominion.</span></p>
-      <!-- hand? animation -->
+      <div class="screen-four-onegroup">
+        <img class="sinking" src="images/underwater.jpg" alt="an underwater black and white photo of people bobbing in the rough water">
+        <p class="screen-four-onetext">And death shall have no <span class="next-four">dominion.</span></p>
+      </div>
       <p class="screen-four-twotext">And death shall have no dominion.</p>
     </div>
 
@@ -81,13 +82,15 @@
     <div class="screen-six">
       <p class="screen-six-onetext">
         Twisting on racks when sinews give way,<br />
-        Strapped to a wheel, yet they shall not break;
+        Strapped to a wheel, yet they shall not <span class="next-six">break;</span>
       </p>
-      <img class="sideskull" src="images/side-skull.jpg" alt="a side view of a human skull" />
-      <p class="screen-six-twotext">
-        Faith in their hands shall snap in two,<br />
-        And the unicorn evils run them through;
-      </p>
+      <div class="screen-six-twogroup">
+        <img class="sideskull" src="images/side-skull.jpg" alt="a side view of a human skull" />
+        <p class="screen-six-twotext">
+           Faith in their hands shall snap in two,<br />
+           And the unicorn evils run them <span class="next-seven">through;</span>
+        </p>
+    </div>
     </div>
 
     <div class="screen-seven">
@@ -97,12 +100,16 @@
 
     <div class="screen-eight">
       <p class="screen-eight-onetext">And death shall have no dominion.</p>
+      <div id='dragElement'>Drag me</div> <!-- issue -->
       <p class="screen-eight-twotext">And death shall have no dominion.</p>
     </div>
 
     <div class="screen-nine">
       <p class="screen-nine-onetext">No more may gulls cry at their ears</p>
       <img class="seagulls" src="images/seagulls.jpg" alt="a rapid flight of seagulls" />
+      <audio id="seabird" class="audio">
+        <source src="audio/seabird.mp3" type="audio/mpeg"></source>
+      </audio>
       <!-- seagle sounds -->
     </div>
 
@@ -172,7 +179,7 @@
 
       $(".screen-three-twotext .next-threefour").click(function () {
         $(".screen-three-twotext .next-threefour").css("text-decoration", "line-through")
-        $(".screen-four-onetext").addClass("draw-threefour")
+        $(".screen-four-onegroup").addClass("draw-threefour")
       })
 
       $(".screen-four-onetext .next-four").click(function () {
@@ -180,14 +187,28 @@
         $(".screen-four-twotext").addClass("draw-four")
       })
 
+      $(".screen-five-onetext .next-five").click(function () {
+        $(".screen-five-onetext .next-five").css("text-decoration", "line-through")
+        $(".screen-six-onetext").addClass("draw-five")
+      })
+
+      $(".screen-six-onetext .next-six").click(function () {
+        $(".screen-six-onetext .next-six").css("text-decoration", "line-through")
+        $(".screen-six-twogroup").addClass("draw-six")
+      })
+
+      $(".screen-six-twotext .next-seven").click(function () {
+        $(".screen-six-twotext .next-seven").css("text-decoration", "line-through")
+        $(".screen-seven-onetext").addClass("draw-seven")
+      })
 
 
 
 
 
+      
 
 
-    
 
 
 
@@ -216,6 +237,9 @@
           seavid.muted = true
         })
     </script>
+    
+
+
     <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
