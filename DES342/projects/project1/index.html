@@ -53,16 +53,18 @@
       <p class="screen-three-onetext">
         When their bones are picked clean and the clean bones gone,<br />
         They shall have stars at elbow and foot;<br />
-        Though they go mad they <span class="next">shall be sane,</span><br />
-      </p>
+        Though they go mad they <span class="next-three">shall be sane,</span><br />
+        </p>
+      <canvas id="world"></canvas>
       <p class="screen-three-twotext">
-        Though they sink through the sthey shall rise again;<br />
-        Though lovers be lost love shall not;
+        Though they sink through the sea they shall rise again;<br />
+        Though lovers be lost <span class="next-threefour">love shall not;</span>
       </p>
+      <img class="sinking" src="images/underwater.jpg" alt="an underwater black and white photo of people bobbing in the rough water">
     </div>
 
     <div class="screen-four">
-      <p class="screen-four-onetext">And death shall have no dominion.</p>
+      <p class="screen-four-onetext">And death shall have no <span class="next-four">dominion.</span></p>
       <!-- hand? animation -->
       <p class="screen-four-twotext">And death shall have no dominion.</p>
     </div>
@@ -70,8 +72,9 @@
     <div class="screen-five">
       <p class="screen-five-onetext">
         Under the windings of the sea<br />
-        They lying long shall not die windily;
+        They lying long shall not die <span class="next-five">windily;</span>
       </p>
+      <img class="screen-five-waves" src="images/waves.jpg" alt="a black and white image of waves">
       <!-- wave animation -->
     </div>
 
@@ -162,10 +165,37 @@
         $(".window").addClass("draw-window")
       })
 
-      $(".screen-three-onetext .next").click(function () {
-        $(".screen-three-onetext .next").css("text-decoration", "line-through")
-        $(".screen-three-twotext").addClass("draw")
+      $(".screen-three-onetext .next-three").click(function () {
+        $(".screen-three-onetext .next-three").css("text-decoration", "line-through")
+        $(".screen-three-twotext").addClass("draw-three")
       })
+
+      $(".screen-three-twotext .next-threefour").click(function () {
+        $(".screen-three-twotext .next-threefour").css("text-decoration", "line-through")
+        $(".screen-four-onetext").addClass("draw-threefour")
+      })
+
+      $(".screen-four-onetext .next-four").click(function () {
+        $(".screen-four-onetext .next-four").css("text-decoration", "line-through")
+        $(".screen-four-twotext").addClass("draw-four")
+      })
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+      
 
       var seavid = document.getElementById("sea")
 
@@ -175,7 +205,7 @@
       // build scene
       var scene = new ScrollMagic.Scene({ triggerElement: "#sea", duration: 1000 })
         .addTo(controller)
-        .addIndicators() // add indicators (requires plugin)
+        //.addIndicators() // add indicators (requires plugin)
 
         .on("enter", function () {
           seavid.muted = false

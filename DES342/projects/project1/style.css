@@ -50,17 +50,23 @@ body {
   margin-left: 36px;
   padding-top: 400px;
 }
-.next,
-.next-moon {
+.next {
   text-decoration: underline;
   cursor: help;
 }
+
 .moon {
   height: 50%;
   margin-left: 1100px;
   padding-top: 130px;
   position: absolute;
 }
+
+.next-moon {
+  text-decoration: underline;
+  cursor: help;
+}
+
 .moon-box {
   opacity: 0;
   transition: opacity 2s;
@@ -97,15 +103,59 @@ body {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-right: 36px;
-  padding-top: 580px;
-  margin-left: 878px;
+  padding-top: 860px;
+  margin-left: 840px;
 }
+
+.screen-three-twotext{
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.draw-three {
+  opacity: 1;
+}
+
+.next-three {
+  text-decoration: underline;
+  cursor: help;
+}
+
+
+
+canvas {
+  position: absolute;
+  background: black;
+}
+
+.sinking{
+  width: 60%;
+  border-radius: 60%;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+
 
 .screen-four-onetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-left: 36px;
   padding-top: 600px;
+}
+
+.screen-four-onetext{
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.next-threefour {
+  text-decoration: underline;
+  cursor: help;
+}
+
+.draw-threefour {
+  opacity: 1;
 }
 
 .screen-four-twotext {
@@ -116,11 +166,44 @@ body {
   padding-top: 600px;
 }
 
+.screen-four-twotext{
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.next-four {
+  text-decoration: underline;
+  cursor: help;
+}
+
+.draw-four {
+  opacity: 1;
+}
+
 .screen-five-onetext {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-left: 36px;
   padding-top: 600px;
+}
+.next-five {
+  text-decoration: underline;
+  cursor: help;
+}
+
+.draw-five {
+  opacity: 1;
+}
+
+.screen-six-onetext {
+  text-decoration: underline;
+  cursor: help;
+}
+
+.screen-five-waves{
+  width: 90%;
+  padding-left: 425px;
+  padding-top: 80px;
 }
 
 .screen-six-onetext {
@@ -128,7 +211,7 @@ body {
   font-size: 20px;
   margin-right: 36px;
   margin-left: 945px;
-  padding-top: 600px;
+  padding-top: 100px;
 }
 
 .sideskull {
