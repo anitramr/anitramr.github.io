@@ -278,26 +278,30 @@ canvas {
 
 
 #dragElement {
-  width: 80px;
-  height: 80px;
+  width: 400px;
+  height: 500px;
   background: gray;
   cursor: move;
-  color: #fff;
+  color: rgb(255, 247, 234);
   text-align: center;
-  line-height: 80px;
+  font-size: 20px;
+  line-height: 300px;
   border-radius: 50%;
   user-select: none;
-  transition: all 1ms ease;
-  transform: translateX(-40px) translateY(-40px);
-  position: absolute;
-  left: 36px;
-  top: 10000px;
+  transition: all 2ms ease;
+  transform: translateX(-36px) translateY(-40px);
+  position: relative;
+  left: 550px;
+  top: 100px;
 }
 
-
-
-
-
+.plant{
+  width: 20%;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 570px;
+  margin-top: 80px;
+}
 
 
 
@@ -306,7 +310,7 @@ canvas {
   font-size: 20px;
   margin-right: 36px;
   margin-left: 1082px;
-  padding-top: 600px;
+  padding-top: 180px;
 }
 
 .screen-nine-onetext {
