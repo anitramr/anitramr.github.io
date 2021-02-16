@@ -154,6 +154,41 @@ function move(event) {
 
 
 
+var body = document.body;
+var dragElementtwo = document.getElementById("dragElementtwo");
+var dragElementtwoStyle = dragElementtwo.style;
+var dragElementtwoHeight = dragElementtwo.offsetHeight;
+var dragElementtwoWidth = dragElementtwo.offsetWidth;
+
+onload = adding;
+
+function adding() {
+    dragElementtwo.addEventListener("mousedown", hold, false);
+    body.addEventListener("mouseup", release, false);
+}
+
+function hold() {
+    dragElementtwo.addEventListener("mousemove", move, true);
+    body.addEventListener("mousemove", move, true);
+}
+
+function release() {
+    dragElementtwo.removeEventListener("mousemove", move, true);
+    body.removeEventListener("mousemove", move, true);
+}
+
+function move(event) {
+    var epY = event.clientY;
+    var epX = event.clientX;
+
+    dragElementtwoStyle.top = epY + "px";
+    dragElementtwoStyle.left = epX + "px";
+}
+
+
+
+
+
 var liquid = $("#seabird")[0];
 $("#seabird-button").mouseenter(function() {
   liquid.currentTime = 0;
@@ -165,3 +200,6 @@ $(".menu-toggle").on('click', function() {
   $('.menu-section').toggleClass("on");
   $("nav ul").toggleClass('hidden');
 });
+
+
+

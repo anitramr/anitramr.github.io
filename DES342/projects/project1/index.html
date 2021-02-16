@@ -101,25 +101,23 @@
     <div class="screen-eight">
       <p class="screen-eight-onetext">And death shall have no dominion.</p>
       <img class="plant" src="images/plant.jpg" alt="a prickly plant in color">
-      <div id='dragElement'>Drag me</div> <!-- issue -->
-      <p class="screen-eight-twotext">And death shall have no dominion.</p>
+      <div id='dragElement'>Drag me</div>
+      <p class="screen-eight-twotext">And death shall have <span class="next-eight">no dominion.ven"></span></p>
     </div>
 
     <div class="screen-nine">
       <p class="screen-nine-onetext">No more may gulls cry at their ears</p>
       <img class="seagulls" src="images/seagulls.jpg" alt="a rapid flight of seagulls" />
-      <audio id="seabird" class="audio">
+       <!-- <audio id="seabird" class="audio">
         <source src="audio/seabird.mp3" type="audio/mpeg"></source>
       </audio>
-      <!-- seagle sounds -->
+                                seagle sounds -->
     </div>
 
     <div class="screen-ten">
       <p class="screen-ten-onetext">Or waves break loud on the seashores;</p>
       <video muted autoplay loop id="sea" src="images/sea-vid.mp4" width="1480" height="860"></video>
-      <!-- <video width="1480" height="860" controls>
-        <source id="sea" src="images/sea-vid.mp4" type=video/mp4 alt="a short video of waves crashing against the shore"> 
-      </video> -->
+
     </div>
 
     <div class="screen-eleven">
@@ -127,7 +125,7 @@
         Where blew a flower may a flower no more<br />
         Lift its head to the blows of the rain;
       </p>
-      <!-- clouds floating across screen -->
+      <img class="clouds" src="images/clouds.jpg" alt="storm clouds with a long hole down the middle" />
     </div>
 
     <div class="screen-twelve">
@@ -135,12 +133,19 @@
         Though they be mad and dead as nails,<br />
         Heads of the characters hammer <br />through daisies;
       </p>
-      <img class="askull" src="images/askull.jpg" alt="a close-up of the front of a small animal skull" />
+      <div class="canvastwo">
+        <img class="askull" src="images/askull.jpg" alt="a close-up of the front of a small animal skull" />
+        <div class="layer exposure-layer"></div>
+      </div>
+      
+      <label for="exposure" class="exposure-control">
+        exposure: <input type="range" id="exposure-control" min="0" max="300" value="150" />
+      </label>
     </div>
 
     <div class="screen-thirteen">
-      <p class="screen-thirteen-onetext">Break in the sun till the sun breaks down,</p>
-      <!-- drag apart black sphere -->
+      <div id='dragElementtwo'>Drag me <br> Break in the sun till the sun breaks down, </div>
+      <img class="flowers" src="images/flowers.jpg" alt="a coloured image of yellow sunflowers or daisies" />
     </div>
 
     <div class="screen-fourteen">
@@ -237,6 +242,28 @@
           seavid.pause()
           seavid.muted = true
         })
+
+
+
+        const DOM = document.documentElement;
+
+const setCSSProperty = (key, value, scope = DOM) => {
+  scope.style.setProperty(key, value);
+};
+
+const exposureControl = {
+  el: document.getElementById('exposure-control'),
+  value() {
+    return Number(this.el.value) / Number(this.el.max);
+  } };
+
+
+setCSSProperty('--exposure', exposureControl.value());
+
+exposureControl.el.addEventListener('input', () => {
+  setCSSProperty('--exposure', exposureControl.value());
+});
+
     </script>
     
 
