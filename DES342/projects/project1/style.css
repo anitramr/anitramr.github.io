@@ -274,7 +274,10 @@ canvas {
   padding-top: 180px;
 }
 
-
+.next-eight {
+  text-decoration: underline;
+  cursor: help;
+}
 
 
 #dragElement {
@@ -309,8 +312,13 @@ canvas {
   color: rgb(255, 247, 234);
   font-size: 20px;
   margin-right: 36px;
-  margin-left: 1082px;
+  margin-left: 1050px;
   padding-top: 180px;
+}
+
+.next-nine {
+  text-decoration: underline;
+  cursor: help;
 }
 
 .screen-nine-onetext {
@@ -318,6 +326,15 @@ canvas {
   font-size: 20px;
   margin-left: 36px;
   padding-top: 180px;
+}
+
+.screen-nine-onetext{
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.draw-eight{
+  opacity: 1;
 }
 
 .seagulls {
@@ -331,6 +348,15 @@ canvas {
   margin-right: 36px;
   margin-left: 1010px;
   padding-top: 200px;
+}
+
+.screen-ten-onetext{
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.draw-nine{
+  opacity: 1;
 }
 
 .screen-eleven-onetext {
@@ -490,4 +516,5 @@ margin-top: 860px;
   font-size: 120px;
   margin-left: 460px;
   padding-top: 400px;
+  text-decoration: line-through;
 }

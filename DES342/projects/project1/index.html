@@ -102,7 +102,7 @@
       <p class="screen-eight-onetext">And death shall have no dominion.</p>
       <img class="plant" src="images/plant.jpg" alt="a prickly plant in color">
       <div id='dragElement'>Drag me</div>
-      <p class="screen-eight-twotext">And death shall have <span class="next-eight">no dominion.ven"></span></p>
+      <p class="screen-eight-twotext">And death shall have no <span class="next-eight">dominion.</span></p>
     </div>
 
     <div class="screen-nine">
@@ -208,6 +208,16 @@
         $(".screen-seven-onetext").addClass("draw-seven")
       })
 
+      $(".screen-eight-twotext .next-eight").click(function () {
+        $(".screen-eight-twotext .next-eight").css("text-decoration", "line-through")
+        $(".screen-nine-onetext").addClass("draw-eight")
+      })
+
+      
+      $(".screen-nine-onetext .next-nine").click(function () {
+        $(".screen-nine-onetext .next-nine").css("text-decoration", "line-through")
+        $(".screen-ten-onetext").addClass("draw-nine")
+      })
 
 
 
