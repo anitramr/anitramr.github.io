@@ -126,7 +126,7 @@ var dragElementStyle = dragElement.style;
 var dragElementHeight = dragElement.offsetHeight;
 var dragElementWidth = dragElement.offsetWidth;
 
-onload = adding;
+onload = adding (dragElement), addingtwo (dragElementtwo);
 
 function adding() {
     dragElement.addEventListener("mousedown", hold, false);
@@ -160,24 +160,22 @@ var dragElementtwoStyle = dragElementtwo.style;
 var dragElementtwoHeight = dragElementtwo.offsetHeight;
 var dragElementtwoWidth = dragElementtwo.offsetWidth;
 
-onload = adding;
-
-function adding() {
-    dragElementtwo.addEventListener("mousedown", hold, false);
-    body.addEventListener("mouseup", release, false);
+function adding2() {
+    dragElementtwo.addEventListener("mousedown", hold2, false);
+    body.addEventListener("mouseup", release2, false);
 }
 
-function hold() {
-    dragElementtwo.addEventListener("mousemove", move, true);
-    body.addEventListener("mousemove", move, true);
+function hold2() {
+    dragElementtwo.addEventListener("mousemove", move2, true);
+    body.addEventListener("mousemove", move2, true);
 }
 
-function release() {
-    dragElementtwo.removeEventListener("mousemove", move, true);
-    body.removeEventListener("mousemove", move, true);
+function release2() {
+    dragElementtwo.removeEventListener("mousemove", move2, true);
+    body.removeEventListener("mousemove", move2, true);
 }
 
-function move(event) {
+function move2(event) {
     var epY = event.clientY;
     var epX = event.clientX;
 
@@ -187,19 +185,6 @@ function move(event) {
 
 
 
-
-
-var liquid = $("#seabird")[0];
-$("#seabird-button").mouseenter(function() {
-  liquid.currentTime = 0;
-  liquid.play();
-});
-
-$(".menu-toggle").on('click', function() {
-  $(this).toggleClass("on");
-  $('.menu-section').toggleClass("on");
-  $("nav ul").toggleClass('hidden');
-});
 
 
 
