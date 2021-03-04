@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+
+img{
+    height: auto;
+}
+
+
+body{
+    margin: 20px;
+    font-family: Poppins;
+}
+
+.Head{
+    display: flex;
+}
+
+.logo{
+    max-width: 80%
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    display: inline-flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 800px;
+    margin-top: 70px;
+}
