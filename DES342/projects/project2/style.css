@@ -141,25 +141,62 @@ nav .header{
 
   .landscapeboat{
     max-width: 1000px;
-    padding-top: 20px;
+    margin-top: 20px;
     margin-right: -20px;;
     float: right;
     position: relative;
   }
 
   .first-first{
-    font-size: 28px;
+    font-size: 29.3px;
     margin-left: 200px;
+    margin-top: 500px;
     position: absolute;
     z-index: 10;
   }
 
+  .first-two{
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 610px;
+    position: absolute;
+    z-index: 10;
+  }
+/*
   .landclouds{
     max-width: 400px;
     margin-left: 330px;
     margin-top: 400px;
     position: absolute;
   }
+*/
+
+  .purplelaugh{
+    width: 600px;
+    margin-top: 100px;
+    position: relative;
+  }
+
+  .second-second{
+    font-size: 29.3px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 184px;
+  }
+
+  .smileyface{
+    width: 350px;
+    margin-left: 18px;
+    margin-top: 300px;
+    position: absolute;
+  }
+
+  .second-third{
+    font-size: 15px;
+    margin-top: 100px;
+    margin-left: 184px;
+  }
+
 
 
 
