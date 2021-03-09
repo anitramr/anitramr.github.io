@@ -179,9 +179,9 @@ nav .header{
 
   .second-second{
     font-size: 29.3px;
+    margin-left: 184px;
     position: absolute;
     z-index: 10;
-    margin-left: 184px;
   }
 
   .smileyface{
@@ -197,6 +197,25 @@ nav .header{
     margin-left: 184px;
   }
 
+  .blondkid{
+    max-width: 500px;
+    float: right;
+    margin-top: 100px;
+  }
+
+  .third-third{
+    font-size: 29.3px;
+    margin-top: 300px;
+    margin-left: 100px;
+    position: absolute;
+  }
+
+  .third-forth{
+    font-size: 15px;
+    margin-top: 400px;
+    margin-left: 100px;
+    position: absolute;
+  }
 
 
 
