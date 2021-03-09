@@ -43,7 +43,7 @@ nav .header{
        -moz-appearance: none;
             appearance: none;
     background-color: transparent;
-    border-radius: 0.6em;
+    border-radius: 2.1em;
     cursor: pointer;
     white-space: nowrap;
     display: flex;
@@ -134,6 +134,58 @@ nav .header{
     top: 0;
     transform: rotate(135deg);
   }
+    /* END OF Nav/Menu */
+
+
+ /* First */
+
+  .landscapeboat{
+    max-width: 1000px;
+    padding-top: 20px;
+    margin-right: -20px;;
+    float: right;
+    position: relative;
+  }
+
+  .first-first{
+    font-size: 28px;
+    margin-left: 200px;
+    position: absolute;
+    z-index: 10;
+  }
+
+  .landclouds{
+    max-width: 400px;
+    margin-left: 330px;
+    margin-top: 400px;
+    position: absolute;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   /* this is the mobile stuff */
   @media only screen and (max-width: 768px){
@@ -188,7 +240,7 @@ nav .header{
   
   .menu-mobile {
     background-color: #fff;
-    border: 1px solid #E5450A;
+    border: 1px solid #3498db;
     position: fixed;
     right: 0;
     width: 40rem;
@@ -202,7 +254,7 @@ nav .header{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border-bottom: 1px solid #E5450A;
+    border-bottom: 1px solid #3498db;
   }
   
   .menu-mobile a {
@@ -214,7 +266,7 @@ nav .header{
   }
   
   .menu-mobile a:hover {
-    color: #E5450A;
+    color: #3498db;
   }
   
   .menu-mobile {
@@ -223,4 +275,3 @@ nav .header{
   }
   
   /* END OF Mobile Menu */
-  }
