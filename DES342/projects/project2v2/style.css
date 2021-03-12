@@ -35,7 +35,7 @@
   transition: all;
   transition-duration: 1s;
 }
-.body-body .mainContainer .navbar .navbar-brand:hover, body .mainContainer .navbar .navbar-brand:focus {
+.body-body .mainContainer .navbar .navbar-brand:hover, .body-body .mainContainer .navbar .navbar-brand:focus {
   transform: scale(1.2);
   -webkit-text-stroke: 1px #fff;
   -webkit-text-stroke-color: transparent;
@@ -61,7 +61,7 @@
   transition: all;
   transition-duration: 1s;
 }
-.body-body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover, body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:active, body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
+.body-body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover, .body-body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:active, body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
   border-bottom: 2px solid #ffff;
   transform: translateY(-5px);
 }
@@ -95,7 +95,7 @@
   transition: all;
   transition-duration: 1s;
 }
-.body-body .mainContainer .legend .legend__text .introText .introText__link a:hover, body .mainContainer .legend .legend__text .introText .introText__link a:focus {
+.body-body .mainContainer .legend .legend__text .introText .introText__link a:hover, .body-body .mainContainer .legend .legend__text .introText .introText__link a:focus {
   text-decoration: none;
   filter: blur(1px);
 }
@@ -163,62 +163,62 @@
 
 /*Responsiveness for screens*/
 @media screen and (max-width: 1600px) {
-  body .mainContainer .navbar .navbar-brand {
+    .body-body .mainContainer .navbar .navbar-brand {
     margin-left: 6%;
   }
 }
 @media screen and (max-width: 1350px) {
-  body .mainContainer .navbar .navbar-brand {
+    .body-body .mainContainer .navbar .navbar-brand {
     margin-left: 2%;
   }
 }
 @media screen and (max-width: 1200px) {
-  body .mainContainer {
+    .body-body .mainContainer {
     padding: 0 3%;
   }
 }
 @media screen and (max-width: 1000px) {
-  body .mainContainer {
+    .body-body .mainContainer {
     padding: 0 1%;
   }
-  body .mainContainer .navbar .navbar-nav .last {
+  .body-body .mainContainer .navbar .navbar-nav .last {
     position: relative !important;
   }
 }
 @media screen and (max-width: 767px) {
-  body .mainContainer {
+    .body-body .mainContainer {
     padding: 0 2%;
     height: 800px !important;
   }
-  body .mainContainer .navbar {
+  .body-body .mainContainer .navbar {
     margin-bottom: 200px;
   }
-  body .mainContainer .navbar .navbar-brand {
+  .body-body .mainContainer .navbar .navbar-brand {
     margin-left: 0 !important;
   }
-  body .mainContainer .navbar .navbar-collapse .navbar-nav {
+  .body-body .mainContainer .navbar .navbar-collapse .navbar-nav {
     width: 100% !important;
     background-color: #333;
   }
-  body .mainContainer .navbar .navbar-collapse .navbar-nav .last {
+  .body-body .mainContainer .navbar .navbar-collapse .navbar-nav .last {
     position: relative !important;
   }
-  body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover, body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:active, body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
+  .body-body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover, .body-body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:active, body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
     border-bottom: 2px solid #fff;
     transform: translateY(-5px);
   }
-  body .mainContainer .legend {
+  .body-body .mainContainer .legend {
     height: 550px;
   }
-  body .mainContainer .legend .legend__text {
+  .body-body .mainContainer .legend .legend__text {
     padding: 0;
     height: 400px !important;
   }
-  body .mainContainer .legend .legend__text .introText {
+  .body-body .mainContainer .legend .legend__text .introText {
     width: 100%;
     text-align: center;
   }
-  body .mainContainer .legend .legend__text .introText .introText__heading {
+  .body-body .mainContainer .legend .legend__text .introText .introText__heading {
     font-size: 32px;
   }
 }
