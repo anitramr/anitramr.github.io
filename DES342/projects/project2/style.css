@@ -358,14 +358,21 @@ nav .header{
   margin-top: 500px;
   position: absolute;
   z-index: 10;
+
 }
 
 .thirdpfive-six{
   font-size: 15px;
-  margin-left: 200px;
+  margin-left: 800px;
   margin-top: 610px;
   position: absolute;
   z-index: 10;
+}
+
+.kids{
+  width: 700px;
+  margin-top: 850px;
+  
 }
 
 
