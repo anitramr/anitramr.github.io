@@ -107,6 +107,11 @@
 
 
   /*items page*/
+
+  
+
+
+
 .carousel-fade .carousel-inner .item {
     transition-property: opacity;
   }
@@ -138,17 +143,169 @@
     height: 100%;
   }
   .item:nth-child(1) {
-    background: #74C390;
+    background: #B5838D;
   }
+      
+  .chickenpurse{
+      width: 500px;
+      margin-left: 80px;
+      padding-top: 100px;
+      border-radius: 20px;
+  }
+
+  .chickenbutton{
+      margin-left: 200px;
+        display: inline-block;
+        padding: 1em 2em;
+        border-radius: 0;
+        color: #FFCDB2;
+        margin-top: 2rem;
+        font-weight: bold;
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+        background: linear-gradient(to right, rgba(178, 135, 111, 0) 25%, rgba(255, 205, 178, 0.8) 75%);
+        background-position: 1% 50%;
+        background-size: 400% 300%;
+        border: 1px solid #FFCDB2;
+        border-radius: 60%;
+        transition: 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
+        width: 250px;
+        height: 80px;
+      }
+  .chickenbutton:hover {
+        transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+      }
+  .chickenbutton:hover {
+        color: white;
+        color: #fff;
+        background-position: 99% 50%;
+      }
+
   .item:nth-child(2) {
-    background: #51BCE8;
+    background: #6D6875;
   }
+
+  .shrimppillow{
+    width: 600px;
+    margin-left: 80px;
+    padding-top: 100px;
+    border-radius: 20px;
+}
+
+.shrimpbutton{
+    margin-left: 260px;
+      display: inline-block;
+      padding: 1em 2em;
+      border-radius: 0;
+      color: #FFB4A2;
+      margin-top: 2rem;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: linear-gradient(to right, rgba(178, 135, 111, 0) 25%, rgba(255, 180, 162, 0.8) 75%);
+      background-position: 1% 50%;
+      background-size: 400% 300%;
+      border: 1px solid #FFB4A2;
+      border-radius: 60%;
+      transition: 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
+      width: 250px;
+      height: 80px;
+    }
+.shrimpbutton:hover {
+      transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+.shrimpbutton:hover {
+      color: white;
+      color: #fff;
+      background-position: 99% 50%;
+    }
+
   .item:nth-child(3) {
-    background: #E46653;
+    background: #B5838D;
   }
+
+  .cattissue{
+    width: 600px;
+    margin-left: 80px;
+    padding-top: 100px;
+    border-radius: 20px;
+}
+
+.catbutton{
+    margin-left: 260px;
+      display: inline-block;
+      padding: 1em 2em;
+      border-radius: 0;
+      color: #565264;
+      margin-top: 2rem;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: linear-gradient(to right, rgba(178, 135, 111, 0) 25%, rgba(86, 82, 100, 0.8) 75%);
+      background-position: 1% 50%;
+      background-size: 400% 300%;
+      border: 1px solid #565264;
+      border-radius: 60%;
+      transition: 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
+      width: 250px;
+      height: 80px;
+    }
+.catbutton:hover {
+      transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+.catbutton:hover {
+      color: white;
+      color: #fff;
+      background-position: 99% 50%;
+    }
+
   .item:nth-child(4) {
-    background: #dae453;
+    background: #FFCDB2;
   }
+
+  
+  .fishfeet{
+    width: 600px;
+    margin-left: 80px;
+    padding-top: 100px;
+    border-radius: 20px;
+}
+
+.fishbutton{
+    margin-left: 260px;
+      display: inline-block;
+      padding: 1em 2em;
+      border-radius: 0;
+      color: #B5838D;
+      margin-top: 2rem;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: linear-gradient(to right, rgba(178, 135, 111, 0) 25%, rgba(181, 131, 141, 0.8) 75%);
+      background-position: 1% 50%;
+      background-size: 400% 300%;
+      border: 1px solid #B5838D;
+      border-radius: 60%;
+      transition: 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
+      width: 250px;
+      height: 80px;
+    }
+.fishbutton:hover {
+      transition: 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+.fishbutton:hover {
+      color: white;
+      color: #fff;
+      background-position: 99% 50%;
+    }
 
   /*end items page*/
 
@@ -164,7 +321,9 @@
 
 
 
-/*Responsiveness for screens*/
+
+
+/*Responsiveness for screens - Homepage*/
 @media screen and (max-width: 1600px) {
     .body-body .mainContainer .navbar .navbar-brand {
     margin-left: 6%;
@@ -225,3 +384,5 @@
     font-size: 32px;
   }
 }
+/*End responsiveness for screens - Homepage*/
+
