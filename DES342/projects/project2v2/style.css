@@ -158,6 +158,7 @@
     position: relative;
     top: 46%;
     color: #fff;
+    font-family: Noto Sans JP;
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 4px;
@@ -171,6 +172,7 @@
     content: '';
     width: 70px;
     height: 2px;
+    font-family: Noto Sans JP;
     background-color: #fff;
     position: absolute;
     top: 50%;
@@ -196,6 +198,7 @@
     right: 0;
     bottom: -50px;
     text-transform: none;
+    font-family: Noto Sans JP;
     font-weight: 300;
     font-style: italic;
     letter-spacing: 0;
@@ -211,11 +214,11 @@
     opacity: 1;
   }
   
-  .navnav li:nth-of-type(1){background-color: #6D6875}
-  .navnav li:nth-of-type(2){background-color: #B5838D}
-  .navnav li:nth-of-type(3){background-color: #E5989B}
-  .navnav li:nth-of-type(4){background-color: #FFB4A2}
-  .navnav li:nth-of-type(5){background-color: #FFCDB2}
+  .navnav li:nth-of-type(1){background-color: #006466}
+  .navnav li:nth-of-type(2){background-color: #144552}
+  .navnav li:nth-of-type(3){background-color: #212F45}
+  .navnav li:nth-of-type(4){background-color: #312244}
+  .navnav li:nth-of-type(5){background-color: #4D194D}
   
   .slide-in-nav-item {
     animation: slide-in-nav-item 0.4s linear 1 .2s both;
@@ -483,7 +486,7 @@
     height: 100%;
   }
   .chicken {
-    background: #B5838D;
+    background: #065A60;
     height: 100%;
   }
 
@@ -521,17 +524,17 @@
         display: inline-block;
         padding: 1em 2em;
         border-radius: 0;
-        color: #706677;
+        color: #312244;
         margin-top: 2rem;
         font-weight: bold;
         font-size: 18px;
         letter-spacing: 2px;
         text-transform: uppercase;
         text-decoration: none;
-        background: linear-gradient(to right, rgba(178, 135, 111, 0) 25%, rgba(112, 102, 119, 0.8) 75%);
+        background: linear-gradient(to right, rgba(178, 135, 111, 0) 25%, rgba(49, 34, 68, 0.8) 75%);
         background-position: 1% 50%;
         background-size: 400% 300%;
-        border: 1px solid #706677;
+        border: 1px solid #312244;
         border-radius: 80%;
         transition: 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
         width: 280px;
@@ -548,7 +551,7 @@
 
 
   .shrimp {
-    background: #6D6875;
+    background: #3E1F47;
     height: 100%;
   }
 
@@ -594,17 +597,17 @@
       display: inline-block;
       padding: 1em 2em;
       border-radius: 0;
-      color: #FFB4A2;
+      color: #006466;
       margin-top: 2rem;
       font-weight: bold;
       font-size: 18px;
       letter-spacing: 2px;
       text-transform: uppercase;
       text-decoration: none;
-      background: linear-gradient(to right, rgba(178, 135, 111, 0) 25%, rgba(255, 180, 162, 0.8) 75%);
+      background: linear-gradient(to right, rgba(178, 135, 111, 0) 25%, rgba(0, 100, 102, 0.8) 75%);
       background-position: 1% 50%;
       background-size: 400% 300%;
-      border: 1px solid #FFB4A2;
+      border: 1px solid #006466;
       border-radius: 80%;
       transition: 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
       width: 250px;
@@ -621,7 +624,7 @@
 
 
   .cat {
-    background: #B5838D;
+    background: #1B3A4B;
     height: 100%;
   }
 
@@ -658,17 +661,17 @@
       display: inline-block;
       padding: 1em 2em;
       border-radius: 0;
-      color: #565264;
+      color: #006466;
       margin-top: 2rem;
       font-weight: bold;
       font-size: 18px;
       letter-spacing: 2px;
       text-transform: uppercase;
       text-decoration: none;
-      background: linear-gradient(to right, rgba(178, 135, 111, 0) 25%, rgba(86, 82, 100, 0.8) 75%);
+      background: linear-gradient(to right, rgba(178, 135, 111, 0) 25%, rgba(0, 100, 102, 0.8) 75%);
       background-position: 1% 50%;
       background-size: 400% 300%;
-      border: 1px solid #565264;
+      border: 1px solid #006466;
       border-radius: 80%;
       transition: 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
       width: 250px;
@@ -685,7 +688,7 @@
 
 
   .fish {
-    background: #FFCDB2;
+    background: #272640;
     height: 100%;
   }
 
@@ -722,17 +725,17 @@
       display: inline-block;
       padding: 1em 2em;
       border-radius: 0;
-      color: #B5838D;
+      color: #065A60;
       margin-top: 2rem;
       font-weight: bold;
       font-size: 16px;
       letter-spacing: 2px;
       text-transform: uppercase;
       text-decoration: none;
-      background: linear-gradient(to right, rgba(178, 135, 111, 0) 25%, rgba(181, 131, 141, 0.8) 75%);
+      background: linear-gradient(to right, rgba(178, 135, 111, 0) 25%, rgba(6, 90, 96, 0.8) 75%);
       background-position: 1% 50%;
       background-size: 400% 300%;
-      border: 1px solid #B5838D;
+      border: 1px solid #065A60;
       border-radius: 80%;
       transition: 700ms cubic-bezier(0.165, 0.84, 0.44, 1);
       width: 250px;
@@ -748,6 +751,82 @@
     }
 
   /*end items page*/
+
+
+  /* beginning of sell page*/
+
+  @keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -1px;
+    background-image: linear-gradient(to top, #3E1F47 20%, #1B3A4B 80%);
+}
+.bgTop {
+    z-index: 15;
+    opacity: 0.5;
+}
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 5;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+   -webkit-animation: move-wave 3s;
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}
+
+
+
 
 
 
