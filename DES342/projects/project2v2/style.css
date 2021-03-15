@@ -753,77 +753,213 @@
   /*end items page*/
 
 
+
   /* beginning of sell page*/
 
-  @keyframes move_wave {
-    0% {
-        transform: translateX(0) translateZ(0) scaleY(1)
-    }
-    50% {
-        transform: translateX(-25%) translateZ(0) scaleY(0.55)
-    }
-    100% {
-        transform: translateX(-50%) translateZ(0) scaleY(1)
-    }
-}
-.waveWrapper {
+  /*hallucination effect*/
+
+  .hallucination-effect {
+    background-image: url(images/circleface.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
     overflow: hidden;
+    height: 0;
+    padding: 0 0 150%;
+  }
+  @supports (mix-blend-mode: multiply) {
+    .hallucination-effect {
+      overflow: hidden;
+      background-color: magenta;
+      background-blend-mode: screen;
+    }
+    .hallucination-effect:before, .hallucination-effect:after {
+      display: block;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: inherit;
+      mix-blend-mode: multiply;
+      transform: scale(1.05);
+    }
+    .hallucination-effect:before {
+      background-color: yellow;
+      background-blend-mode: screen;
+      transform-origin: top left;
+    }
+    .hallucination-effect:after {
+      background-color: cyan;
+      background-blend-mode: screen;
+      transform-origin: bottom right;
+    }
+  }
+  
+  [class$=-effect] img {
+    vertical-align: top !important;
+    margin: 0 !important;
+    opacity: 0 !important;
+  }
+  
+     /* positioning */
+  .container {
+    width: 30%;
+    margin: 0 auto;
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin: auto;
-}
-.waveWrapperInner {
-    position: absolute;
-    width: 100%;
-    overflow: hidden;
-    height: 100%;
-    bottom: -1px;
-    background-image: linear-gradient(to top, #3E1F47 20%, #1B3A4B 80%);
-}
-.bgTop {
-    z-index: 15;
-    opacity: 0.5;
-}
-.bgMiddle {
     z-index: 10;
-    opacity: 0.75;
-}
-.bgBottom {
-    z-index: 5;
-}
-.wave {
+    margin-left: 970px;
+    margin-top: 120px;
+  }
+  .container img {
     position: absolute;
     left: 0;
-    width: 200%;
+    top: 0;
+    height: auto;
+  }
+
+
+
+
+.together{
+  display: flex;
+}
+
+  .wrapper {
+    width: 100%;
     height: 100%;
-    background-repeat: repeat no-repeat;
-    background-position: 0 bottom;
+    position: absolute;
+    background: linear-gradient(45deg,#006466, #312244, #1B3A4B , #4D194D, #6A041D);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+.word-word{
+  position: absolute;
+  z-index: 10;
+}
+
+.words{
+  font-family: Noto Sans JP;
+  font-size: 36px;
+  color: #fff;
+  margin-top: 105px;
+  margin-left: 80px;
+  line-height: 60px;
+}
+
+.wordsv2{
+  font-family: Noto Sans JP;
+  font-size: 19px;
+  color: #fff;
+  position: absolute;
+  z-index: 20;
+  margin-top: 55px;
+  margin-left: 80px;
+}
+
+.wordsv3{
+  font-family: Noto Sans JP;
+  font-size: 19px;
+  color: #fff;
+  position: absolute;
+  z-index: 20;
+  margin-top: 240px;
+  margin-left: 80px;
+}
+
+.manhole{
+  margin-top: 440px;
+}
+
+.container-main{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.round-btn, .round-btn-2{
+  position:relative;
+  height:200px;
+  width:200px;
+  margin:0 auto;
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.round-btn{
+  background-image: url(images/lights.jpg);
+ -webkit-box-shadow: none;
+  box-shadow: none;
+    transition:1s ease all 1s;
+}
+
+.round-btn-2{
+  background-color:#6A041D;
+  transition:1s ease all .3s;
     transform-origin: center bottom;
+    -moz-animation-name: slideUnder;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-duration: 3s;
+
+    -webkit-animation-name: slideUnder;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-duration: 3s;
+
+    animation-name: slideUnder;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 3s;
 }
-.waveTop {
-    background-size: 50% 100px;
+
+.round-btn-2 p{
+  position:relative;
+  margin-top:50px;
+  margin-left: 5px;
+  color: white;
+  font-size:70px;
+  text-align:center;
 }
-.waveAnimation .waveTop {
-  animation: move-wave 3s;
-   -webkit-animation: move-wave 3s;
-   -webkit-animation-delay: 1s;
-   animation-delay: 1s;
+
+.round-btn:hover .round-btn-2{
+ -webkit-box-shadow: inset 0px 0px 3px -1px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 0px 3px -1px rgba(0,0,0,0.7);
+  width:190px;
+  height:190px;
+  margin-top:5px;
+  transform-origin: center bottom;
+  transform:rotate(180deg);
+  transition:1.5s ease transform .5s, 
+            .5s ease width, 
+            .5s ease height, 
+            .5s ease margin;
 }
-.waveMiddle {
-    background-size: 50% 120px;
+
+.round-btn:hover{
+   -webkit-box-shadow: inset 1px 1px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 1px 5px -1px rgba(0,0,0,0.75);
+    transition:.7s ease all;
 }
-.waveAnimation .waveMiddle {
-    animation: move_wave 10s linear infinite;
-}
-.waveBottom {
-    background-size: 50% 100px;
-}
-.waveAnimation .waveBottom {
-    animation: move_wave 15s linear infinite;
-}
+
+/*End of sell page*/
+
+/*Beginning of contact page*/
+
+
+
+  
+
+
+
+
 
 
 
