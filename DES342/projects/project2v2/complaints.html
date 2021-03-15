@@ -13,6 +13,8 @@
     <title>Complaints</title>
 </head>
 <body>
+
+  <div class="complaints-page">
     
     <div class="overlay-navigation">
         <nav class="navnav" role="navigation">
@@ -35,14 +37,36 @@
       </section>
 
 
+      <div class="popup-container">
+      <h1>Have a complaint?</h1>
+      <div class="popbutton">
+         <a href="#popUp" id="openPopUp">Click here!</a>
+       </div>
+
+
+          <aside id="popUp" class="popup">
+              <div class="popUpContainer">
+                <header>
+                  <a href="#!" class="closePopUp">X</a>
+                  <h2>We don't really care</h2>
+                </header>
+                <article>
+                  <p class="popup-message">
+                    Well, it's not that we do not truly care, but it was your choice to invest in a 
+                    product that you saw on a random website. In a way we're like a news website; 
+                    simple spreading the word on the strange products we happen to see. Have a nice day!</p>
+                </article>
+            </div>        
+            <a href="#!" class="closePopUpOutSide"></a>    
+          </aside>
+        </div>
+      </div>
 
 
 
 
 
-
-
-
+    </div>
     <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
