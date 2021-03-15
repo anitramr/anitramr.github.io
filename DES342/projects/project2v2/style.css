@@ -1282,11 +1282,12 @@ a#openPopUp:hover{
     position: relative !important;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 520px) {
     .body-body .mainContainer {
     padding: 0 2%;
-    height: 800px !important;
+    height: 900px !important;
   }
+
   .body-body .mainContainer .navbar {
     margin-bottom: 200px;
   }
@@ -1321,3 +1322,301 @@ a#openPopUp:hover{
 }
 /*End responsiveness for screens - Homepage*/
 
+/*beginning responsiveness for screens - items*/
+
+@media screen and (max-width: 520px) {
+
+.items-whole-whole{
+  height: 1060px;
+}
+
+.chickenpurse{
+  width: 400px;
+  height: 500px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+.chickenp{
+  flex-direction: column;
+}
+
+.chicknp{
+  margin-left: 40px;
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 20pt;
+  font-weight: bold;
+}
+
+.chicknpv2{
+  margin-left: 40px;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  line-height: 18pt;
+}
+
+.chickenbutton{
+    margin-left: 120px;
+}
+
+.shrimpp{
+  flex-direction: column;
+}
+    
+.shrimppillow{
+  width: 400px;
+  height: 500px;
+  margin-left: 60px;
+  padding-top: 70px;
+  margin-bottom: 30px;
+}
+
+.shrimpnp{
+  margin-left: 60px;
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 20pt;
+  font-weight: bold;
+}
+
+.shrimpnpv2{
+  margin-left: 60px;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  line-height: 18pt;
+}
+
+.shrimpbutton{
+  margin-left: 140px;
+  }
+
+.catp{
+   flex-direction: column;
+}
+
+.cattissue{
+  width: 400px;
+  height: 500px;
+  margin-left: 60px;
+  padding-top: 70px;
+  margin-bottom: 30px;
+}
+
+.catnp{
+  margin-left: 60px;
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 20pt;
+  font-weight: bold;
+}
+
+.catnpv2{
+  margin-left: 60px;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 18pt;
+}
+
+.catbutton{
+  margin-left: 140px;
+  }
+
+  .fishp{
+    flex-direction: column;
+ }
+
+.fishfeet{
+  width: 400px;
+  height: 500px;
+  margin-left: 60px;
+  padding-top: 70px;
+  margin-bottom: 30px;
+}
+
+.fishnp{
+  margin-left: 60px;
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: 20pt;
+  font-weight: bold;
+}
+
+.fishnpv2{
+  margin-left: 60px;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  line-height: 18pt;
+}
+
+.fishbutton{
+  margin-left: 140px;
+  }
+
+
+  /* beginning of sell page*/
+
+  /*hallucination effect*/
+
+  .hallucination-effect {
+display: none;
+  }
+  @supports (mix-blend-mode: multiply) {
+    .hallucination-effect {
+      display: none;
+    }
+    .hallucination-effect:before, .hallucination-effect:after {
+      display: none;
+    }
+    .hallucination-effect:before {
+      display: none;
+    }
+    .hallucination-effect:after {
+      display: none;
+    }
+  }
+  
+  [class$=-effect] img {
+    vertical-align: top !important;
+    margin: 0 !important;
+    opacity: 0 !important;
+  }
+  
+     /* positioning */
+  .container {
+    display: none;
+
+  }
+  .container img {
+    display: none;
+  }
+
+.together{
+  flex-direction: column;
+}
+
+  .wrapper {
+    width: 100%;
+    height: 125%;
+    position: absolute;
+    background: linear-gradient(45deg,#006466, #312244, #1B3A4B , #4D194D, #6A041D);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+.word-word{
+  position: absolute;
+  z-index: 10;
+}
+
+.words{
+  font-size: 36px;
+  margin-top: 105px;
+  margin-left: 40px;
+  line-height: 50px;
+}
+
+.wordsv2{
+  font-size: 14px;
+  margin-top: 55px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.wordsv3{
+  font-size: 20px;
+  margin-top: 240px;
+  margin-left: 40px;
+}
+
+.manhole{
+  margin-top: 440px;
+}
+
+.container-main{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.round-btn, .round-btn-2{
+  position:relative;
+  height:200px;
+  width:200px;
+  margin:0 auto;
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.round-btn{
+  background-image: url(images/lights.jpg);
+ -webkit-box-shadow: none;
+  box-shadow: none;
+    transition:1s ease all 1s;
+}
+
+.round-btn-2{
+  background-color:#6A041D;
+  transition:1s ease all .3s;
+    transform-origin: center bottom;
+    -moz-animation-name: slideUnder;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease;
+    -moz-animation-duration: 3s;
+
+    -webkit-animation-name: slideUnder;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-duration: 3s;
+
+    animation-name: slideUnder;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+}
+
+.round-btn-2 p{
+  position:relative;
+  margin-top:50px;
+  margin-left: 5px;
+  color: white;
+  font-size:70px;
+  text-align:center;
+}
+
+.round-btn:hover .round-btn-2{
+ -webkit-box-shadow: inset 0px 0px 3px -1px rgba(0,0,0,0.7);
+  box-shadow: inset 0px 0px 3px -1px rgba(0,0,0,0.7);
+  width:190px;
+  height:190px;
+  margin-top:5px;
+  transform-origin: center bottom;
+  transform:rotate(180deg);
+  transition:1.5s ease transform .5s, 
+            .5s ease width, 
+            .5s ease height, 
+            .5s ease margin;
+}
+
+.round-btn:hover{
+   -webkit-box-shadow: inset 1px 1px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: inset 1px 1px 5px -1px rgba(0,0,0,0.75);
+    transition:.7s ease all;
+}
+
+/*End of sell page*/
+
+
+
+
+}
