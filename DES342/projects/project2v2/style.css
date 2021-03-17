@@ -4,7 +4,6 @@
     padding: 0px;
   }
 
-
 /*Homepage*/
 .body-body {
   width: 100%;
@@ -56,7 +55,7 @@
 }
 .body-body .mainContainer .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
   color: #ffff;
-  padding: 10px 0x;
+  padding: 10px;
   font-weight: 800;
   transition: all;
   transition-duration: 1s;
